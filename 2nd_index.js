@@ -53,8 +53,8 @@ function calculateOrderSummary(order) {
 const customerOrder = {
   customerId: "CUST5021",
   customerCategory: "Premium",
-  orderAmount: 6000,
-  deliveryLocation: "Local"
+  orderAmount: 2000,
+  deliveryLocation: "international"
 };
 
 console.log(calculateOrderSummary(customerOrder));
